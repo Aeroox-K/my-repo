@@ -1,0 +1,17 @@
+const dropDownMenu = document.querySelector('.dropdown-menu');
+const dropDownOptions = document.querySelector('.dropdown-options');
+const serviceShow = document.querySelector('.service-options-list');
+const serviceOptions = document.querySelector('.service-options');
+
+dropDownMenu.addEventListener('click', e => {
+    dropDownOptions.classList.toggle('show-menu')
+});
+
+serviceOptions.addEventListener('click', e => {
+    serviceShow.classList.toggle('service-options-list-show');
+})
+
+
+
+
+
